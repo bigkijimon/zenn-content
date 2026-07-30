@@ -1,5 +1,5 @@
 ---
-title: "Ollama 0.30.8のバイナリにはMLXランナーが埋め込まれている。だがGGUFモデルは一度もそこを通らなかった — M1 Max 64GBで2モデル実測"
+title: "Ollama 0.30.8はMLXランナーを内蔵するがGGUFは通らない — M1 Max 64GB実測"
 emoji: "🧮"
 type: "tech"
 topics: ["ollama", "mlx", "applesilicon", "llm"]

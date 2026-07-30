@@ -1,6 +1,6 @@
 ---
 title: "\"Friendly Fire\"はなぜ刺さるのか — auto-approveの穴を、無人ブログ生成の承認ゲート実装から検証する"
-emoji: "🛡️"
+emoji: "🛡"
 type: "tech"
 topics: ["ClaudeCode", "AIエージェント", "自動化", "セキュリティ", "n8n"]
 published: true

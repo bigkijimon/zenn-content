@@ -1,6 +1,6 @@
 ---
-title: "【実測】M1 MacのComfyUIで実写がボヤける原因は「KSampler一発出し」だった — RealVisXL 2パスHires+4x-UltraSharpに組み替えた全ノード構成"
-emoji: "🖼️"
+title: "M1 MacのComfyUIで実写がボヤける原因は「KSampler一発出し」— RealVisXL 2パスHires実測"
+emoji: "🖼"
 type: "tech"
 topics: ["ComfyUI", "StableDiffusion", "AppleSilicon", "SDXL"]
 published: true
