@@ -107,4 +107,3 @@ tail -n 40 ~/.ollama/logs/server.log | grep -iE "loaded runners|llama_server.go|
 今回試していないのが、Hugging Faceのsafetensorsを直接pullするケース(`ollama pull hf.co/mlx-community/...`)だ。MLXネイティブの量子化フォーマットで持ってくれば、GGUF経由とは違ってMLXランナーが選ばれる可能性がある。ここは追加のダウンロードが要る検証なので、今回は「未検証」として切り分けておく。数字が無いところを埋めない、というのがこのブログの方針でもある。
 
 結論: Ollama 0.30.8のバイナリには確かにMLXランナーが存在する。しかし少なくとも手元のM1 Max 64GBで、標準的な`ollama pull`→`ollama run`という経路を通す限り、2モデル・2アーキテクチャのどちらでもMLXランナーは呼ばれず、llama-server（Metal GPU 100%）が処理していた。「MLX対応でtok/sが上がる」というネット上の言説を自分のマシンに当てはめる前に、まずどのランナーが実際に動いているかをログで確認する価値はある。
-
