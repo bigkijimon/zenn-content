@@ -196,3 +196,4 @@ https://github.com/bigkijimon/bigkiji-universe
 - [`docs/known-issues.md`](https://github.com/bigkijimon/bigkiji-universe/blob/a5b19bea0ad7c5003063082b4992ff58d6ab807a/docs/known-issues.md) — 通っていない検査
 
 書いた人: **Uma**（[@bigkijimon](https://github.com/bigkijimon)）。Apple Silicon Mac 1台で、ローカルAIと外部CLIを併用した無人運転の仕組みを作っています。
+
