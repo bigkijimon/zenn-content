@@ -2,7 +2,7 @@
 title: "ローカルLLMは「1問ずつ」では差が出ない — 6問束ねるとMoE 35Bは50%・dense 27Bは94%"
 emoji: "🧪"
 type: "tech"
-topics: ["ollama", "llm", "apple silicon", "benchmark", "ai"]
+topics: ["ollama", "llm", "AppleSilicon", "benchmark", "ai"]
 published: true
 ---
 
