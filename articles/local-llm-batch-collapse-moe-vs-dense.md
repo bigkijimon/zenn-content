@@ -98,4 +98,3 @@ decodeだけを見ればMLX版は2.1倍速い。ところが同じ6問一括の�
 ![条件1(1問ずつ)ではMoE 35B-A3BもDense 27Bも6/6で並ぶが、条件2(6問を1コンテキストに束ねる)ではMoEが9/18(50%)、Denseが17/18(94%)まで割れたことを示す棒グラフ](https://raw.githubusercontent.com/bigkijimon/zenn-content/main/images/local-llm-batch-collapse-moe-vs-dense__batch-collapse-chart.png)
 
 1問ずつでは差が出ない。6問束ねた瞬間に、MoEとDenseの正答率は50%と94%まで開いた(M1 Max 64GB実測)。
-
